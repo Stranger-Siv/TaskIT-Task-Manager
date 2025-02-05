@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 import connectDB from './dbConnection.js';
 import taskRoutes from './routes/taskRoutes.js'
 import cors from 'cors';  
+import axios from 'axios'
 
 dotenv.config()
 
