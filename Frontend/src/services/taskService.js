@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://taskit-task-manager.onrender.com/api/task';  
+const API_URL = 'http://localhost:4000/api/task';  
 
 export const getTasks = async () => {
     try {
@@ -15,7 +15,7 @@ export const getTasks = async () => {
 
 export const createTask = async (taskData) => {
     try {
-      const response = await axios.post('https://taskit-task-manager.onrender.com/api/task/create', taskData);
+      const response = await axios.post('http://localhost:4000/api/task/create', taskData);
       return response.data;
     } catch (error) {
       console.error('Error creating task:', error);
@@ -25,7 +25,7 @@ export const createTask = async (taskData) => {
   
   export const updateTask = async (id, taskData) => {
     try {
-      const response = await axios.put(`https://taskit-task-manager.onrender.com/api/task/update/${id}`, taskData);
+      const response = await axios.put(`http://localhost:4000/api/task/update/${id}`, taskData);
       return response.data;
     } catch (error) {
       console.error('Error updating task:', error);
