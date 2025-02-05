@@ -5,7 +5,6 @@ import TaskDetail from '../components/TaskDetail'
 const Home = () => {
   return (
     <div>
-        <Navbar />
         <TaskDetail />
     </div>
   )
