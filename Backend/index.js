@@ -12,7 +12,7 @@ const app = express()
 const PORT = process.env.PORT;
 app.use(express.json());
 
-const url = `http://localhost:4000`;
+const url = `https://taskit-task-manager.onrender.com`;
 const interval = 30000;
 
 function reloadWebsite() {
