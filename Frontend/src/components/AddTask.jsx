@@ -27,7 +27,6 @@ const AddTask = () => {
     <div className="p-6 max-w-7xl mx-auto">
       <h1 className="text-2xl font-bold text-gray-800 mb-4">Add New Task</h1>
 
-      {/* Add Task Form */}
       <div className="mb-6 p-4 border border-gray-300 rounded-md">
         <input
           type="text"

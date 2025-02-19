@@ -8,6 +8,7 @@ const Tasks = ({ task, onDelete, onUpdate }) => {
 
   const toggleCompletion = () => {
     setIsCompleted(!isCompleted);
+
   };
 
   const handleDelete = () => {

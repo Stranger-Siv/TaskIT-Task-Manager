@@ -41,7 +41,6 @@ const TaskDetail = () => {
     <div className="p-6 max-w-7xl mx-auto">
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-2xl font-bold text-gray-800">Task List</h1>
-        {/* Link to Add Task Page */}
         <Link
           to="/add-task"
           className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600"
