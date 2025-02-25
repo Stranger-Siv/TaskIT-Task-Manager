@@ -14,7 +14,7 @@ const PORT = process.env.PORT;
 app.use(express.json());
 
 const url = `https://taskit-task-manager-u4cw.onrender.com`;
-const interval = 30000;
+const interval = 300000;
 
 function reloadWebsite() {
   axios
